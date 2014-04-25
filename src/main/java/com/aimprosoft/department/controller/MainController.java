@@ -5,10 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.portlet.bind.annotation.ActionMapping;
 import org.springframework.web.portlet.bind.annotation.RenderMapping;
 
-import javax.portlet.ActionRequest;
 import javax.portlet.ActionResponse;
-import javax.portlet.RenderRequest;
-import javax.portlet.RenderResponse;
 
 @Controller
 @RequestMapping("VIEW")
@@ -17,7 +14,7 @@ public class MainController {
 
     @RenderMapping
     public String defaultRenderPage() {
-        return "index";
+        return "StartPage";
     }
 
     @ActionMapping

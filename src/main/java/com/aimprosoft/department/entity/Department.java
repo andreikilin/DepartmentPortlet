@@ -1,5 +1,7 @@
 package com.aimprosoft.department.entity;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
@@ -16,6 +18,7 @@ public class Department implements BusinessEntity, Serializable {
     @Column(name="name")
     private String name;
 
+    @JsonIgnore
     @OneToMany(targetEntity = Employee.class,
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY,

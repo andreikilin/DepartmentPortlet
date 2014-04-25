@@ -6,9 +6,16 @@
 		<portlet-name>Department_Liferay</portlet-name>
         <icon>/icon.png</icon>
         <!--<instanceable>false</instanceable>-->
-		<header-portlet-css>/css/main.css</header-portlet-css>
-		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
-        <footer-portlet-javascript>/js/jquery-1.11.0.js</footer-portlet-javascript>
+		<!--<header-portlet-css>/css/main.css</header-portlet-css>-->
+
+        <!--<footer-portlet-javascript>/js/jquery-1.11.0.js</footer-portlet-javascript>-->
+        <!--<footer-portlet-javascript>/js/jquery-validate.js</footer-portlet-javascript>-->
+        <!--<footer-portlet-javascript>/js/class-extend.js</footer-portlet-javascript>-->
+        <!--<footer-portlet-javascript>/js/form.js</footer-portlet-javascript>-->
+        <!--<footer-portlet-javascript>/js/department.js</footer-portlet-javascript>-->
+        <!--<footer-portlet-javascript>/js/employee.js</footer-portlet-javascript>-->
+        <!--<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>-->
+
 	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
